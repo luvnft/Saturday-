@@ -62,21 +62,21 @@ const Listing = () => {
   return (
     <>
       <Head>
-        <title>Shopstr</title>
+        <title>ARVRTISE</title>
         <meta name="description" content={productData?.title} />
         <meta
           property="og:url"
-          content={`https://shopstr.store/listing/${productData?.id}`}
+          content={`https://arvrtise.com/listing/${productData?.id}`}
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Shopstr" />
         <meta property="og:description" content={productData?.title} />
         <meta property="og:image" content={imageUrl} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="shopstr.store" />
+        <meta property="twitter:domain" content="arvrtise.com" />
         <meta
           property="twitter:url"
-          content={`https://shopstr.store/listing/${productData?.id}`}
+          content={`https://arvrtise.com/listing/${productData?.id}`}
         />
         <meta name="twitter:title" content="Shopstr" />
         <meta name="twitter:description" content={productData?.title} />

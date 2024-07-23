@@ -151,7 +151,7 @@ const LoginPage = ({ router }: { router: NextRouter }) => {
                 }}
                 className="cursor-pointer text-center text-3xl font-bold text-shopstr-purple-light hover:text-purple-700 dark:text-shopstr-yellow-light"
               >
-                Shopstr
+                ARVRTISE
               </h1>
             </div>
             {errorMessage && (

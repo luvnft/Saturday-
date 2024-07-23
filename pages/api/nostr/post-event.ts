@@ -195,7 +195,7 @@ const PostEvent = async (req: NextApiRequest, res: NextApiResponse) => {
         tags: [
           ["d", dValue],
           ["k", "30402"],
-          ["web", "https://shopstr.store/<bech-32>", "npub"],
+          ["web", "https://arvrtise.com/<bech-32>", "npub"],
         ],
         content: "",
         created_at: Math.floor(Date.now() / 1000),

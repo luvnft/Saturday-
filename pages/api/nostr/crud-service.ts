@@ -13,7 +13,7 @@ export async function DeleteListing(
   let deletionEvent = await createNostrDeleteEvent(
     event_ids_to_delete,
     userPubkey,
-    "user deletion request from shopstr.store",
+    "user deletion request from arvrtise.com",
   );
 
   await finalizeAndSendNostrEvent(deletionEvent, passphrase);

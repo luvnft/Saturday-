@@ -12,7 +12,7 @@ export default function SellerView() {
           content="Buy and sell anything, anywhere, anytime."
         />
 
-        <meta property="og:url" content="https://shopstr.store" />
+        <meta property="og:url" content="https://arvrtise.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Shopstr" />
         <meta
@@ -22,8 +22,8 @@ export default function SellerView() {
         <meta property="og:image" content="/shopstr-2000x2000.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="shopstr.store" />
-        <meta property="twitter:url" content="https://shopstr.store" />
+        <meta property="twitter:domain" content="arvrtise.com" />
+        <meta property="twitter:url" content="https://arvrtise.com" />
         <meta name="twitter:title" content="Shopstr" />
         <meta
           name="twitter:description"

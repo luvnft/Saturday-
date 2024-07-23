@@ -56,7 +56,7 @@ const SettingsPage = () => {
               key="delete"
               className="text-danger"
               color="danger"
-              description="Log out of Shopstr"
+              description="Log out of Arvrtise"
               classNames={listBoxClassnames}
               startContent={
                 <ArrowRightOnRectangleIcon

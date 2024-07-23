@@ -1128,7 +1128,7 @@ export default function InvoiceCard({
                       fullWidth={true}
                       label="Contact"
                       labelPlacement="inside"
-                      placeholder="shopstr@shopstr.store"
+                      placeholder="shopstr@arvrtise.com"
                       isInvalid={isErrored}
                       errorMessage={errorMessage}
                       // controller props
