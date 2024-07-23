@@ -125,14 +125,14 @@ export default function RedemptionModal({
             <div className="flex items-center justify-center">
               Check your Lightning address ({lnurl}) for your sats! Would you
               like to donate your overpaid Lightning fees (
-              {formattedChangeAmount}) to support the development of Shopstr?
+              {formattedChangeAmount}) to support the development of Arvrtise?
             </div>
             <div className="flex w-full flex-wrap justify-evenly gap-2">
               <Button
                 className={SHOPSTRBUTTONCLASSNAMES + " mt-2 w-[20%]"}
                 onClick={() =>
                   sendChange(
-                    "a37118a4888e02d28e8767c08caaf73b49abdac391ad7ff18a304891e416dc33",
+                    "s0k9j8vn4nnjwqcze568ayx83k32jardqfh7hrk7c3mlpqkwgj0qucp3c9",
                   )
                 }
                 startContent={

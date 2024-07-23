@@ -103,7 +103,7 @@ const SideNav = () => {
               isHomeActive ? "font-bold" : ""
             }`}
           >
-            Shopstr
+            ARVRTISE
           </span>
         </Button>
         <Button

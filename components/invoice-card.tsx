@@ -376,7 +376,7 @@ export default function InvoiceCard({
       name +
       " for your " +
       title +
-      " listing on Shopstr: " +
+      " listing on Arvrtise: " +
       token;
     axios({
       method: "POST",
@@ -1128,7 +1128,7 @@ export default function InvoiceCard({
                       fullWidth={true}
                       label="Contact"
                       labelPlacement="inside"
-                      placeholder="shopstr@arvrtise.com"
+                      placeholder="info@arvrtise.com"
                       isInvalid={isErrored}
                       errorMessage={errorMessage}
                       // controller props
