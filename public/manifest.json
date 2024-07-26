@@ -1,7 +1,7 @@
 {
-  "name": "Shopstr",
-  "short_name": "Shopstr",
-  "description": "Buy and sell anything, anywhere, anytime.",
+  "name": "Arvrtise",
+  "short_name": "Arvrtise",
+  "description": "Arvrtise Sat! Buy and sell anything, anywhere, anytime.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#E8E8E8",

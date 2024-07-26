@@ -457,7 +457,7 @@ export default function InvoiceCard({
       const contactMessage =
         "To finalize the sale of your " +
         title +
-        " listing on Shopstr, please contact " +
+        " listing on Arvrtise, please contact " +
         contact +
         " over " +
         contactType +

@@ -120,7 +120,7 @@ export default function NewForm({
       ["alt", "Classified listing: " + data["Product Name"]],
       [
         "client",
-        "Shopstr",
+        "Arvrtise",
         "31990:" + pubkey + ":" + (oldValues?.d || hashHex),
         "wss://relay.damus.io",
       ],

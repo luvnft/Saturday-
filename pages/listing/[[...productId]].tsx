@@ -69,7 +69,7 @@ const Listing = () => {
           content={`https://arvrtise.com/listing/${productData?.id}`}
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Shopstr" />
+        <meta property="og:title" content="Arvrtise" />
         <meta property="og:description" content={productData?.title} />
         <meta property="og:image" content={imageUrl} />
         <meta name="twitter:card" content="summary_large_image" />

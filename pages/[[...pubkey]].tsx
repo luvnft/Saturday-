@@ -6,10 +6,10 @@ export default function SellerView() {
   return (
     <>
       <Head>
-        <title>Shopstr</title>
+        <title>Arvrtise</title>
         <meta
           name="description"
-          content="Buy and sell anything, anywhere, anytime."
+          content="Arvrtise Sat! Buy and sell anything, anywhere, anytime."
         />
 
         <meta property="og:url" content="https://arvrtise.com" />
@@ -17,14 +17,14 @@ export default function SellerView() {
         <meta property="og:title" content="Shopstr" />
         <meta
           property="og:description"
-          content="Buy and sell anything, anywhere, anytime."
+          content="Arvrtise Sat! Buy and sell anything, anywhere, anytime. Buy and sell anything, anywhere, anytime."
         />
         <meta property="og:image" content="/shopstr-2000x2000.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="arvrtise.com" />
         <meta property="twitter:url" content="https://arvrtise.com" />
-        <meta name="twitter:title" content="Shopstr" />
+        <meta name="twitter:title" content="Arvrtise" />
         <meta
           name="twitter:description"
           content="Buy and sell anything, anywhere, anytime."
