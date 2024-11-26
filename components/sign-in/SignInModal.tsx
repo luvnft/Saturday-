@@ -179,7 +179,7 @@ export default function SignInModal({
                     src="/shopstr-2000x2000.png"
                     width={50}
                   />
-                  <div>Shopstr</div>
+                  <div>Arvrtise</div>
                 </div>
                 <Button
                   className={`${SHOPSTRBUTTONCLASSNAMES} w-full`}
