@@ -23,61 +23,61 @@ const config: Config = {
         // light mode
         tremor: {
           brand: {
-            faint: colors.blue[50],
-            muted: colors.blue[200],
-            subtle: colors.blue[400],
-            DEFAULT: colors.blue[500],
-            emphasis: colors.blue[700],
-            inverted: colors.white,
+            faint: "#F7931A10", // Bitcoin Orange with 10% opacity
+            muted: "#F7931A50", // Bitcoin Orange with 50% opacity
+            subtle: "#F7931A", // Bitcoin Orange
+            DEFAULT: "#F7931A", // Bitcoin Orange
+            emphasis: "#8A2BE2", // Nostr Purple
+            inverted: "#FFFFFF", // White
           },
           background: {
-            muted: colors.gray[50],
-            subtle: colors.gray[100],
-            DEFAULT: colors.white,
-            emphasis: colors.gray[700],
+            muted: "#F5F5F5", // Light background
+            subtle: "#E8E8E8", // Light gray
+            DEFAULT: "#FFFFFF", // White
+            emphasis: "#1A1A1A", // Dark text
           },
           border: {
-            DEFAULT: colors.gray[200],
+            DEFAULT: "#E8E8E8", // Light gray
           },
           ring: {
-            DEFAULT: colors.gray[200],
+            DEFAULT: "#E8E8E8", // Light gray
           },
           content: {
-            subtle: colors.gray[400],
-            DEFAULT: colors.gray[500],
-            emphasis: colors.gray[700],
-            strong: colors.gray[900],
-            inverted: colors.white,
+            subtle: "#6C757D", // Neutral gray
+            DEFAULT: "#1A1A1A", // Dark text
+            emphasis: "#1A1A1A", // Dark text
+            strong: "#000000", // Black
+            inverted: "#FFFFFF", // White
           },
         },
         // dark mode
         "dark-tremor": {
           brand: {
-            faint: "#0B1229",
-            muted: colors.blue[950],
-            subtle: colors.blue[800],
-            DEFAULT: colors.blue[500],
-            emphasis: colors.blue[400],
-            inverted: colors.blue[950],
+            faint: "#0B1229", // Dark blue
+            muted: "#8A2BE250", // Nostr Purple with 50% opacity
+            subtle: "#8A2BE2", // Nostr Purple
+            DEFAULT: "#8A2BE2", // Nostr Purple
+            emphasis: "#F7931A", // Bitcoin Orange
+            inverted: "#1A1A1A", // Dark background
           },
           background: {
-            muted: "#131A2B",
-            subtle: colors.gray[800],
-            DEFAULT: colors.gray[900],
-            emphasis: colors.gray[300],
+            muted: "#131A2B", // Dark blue
+            subtle: "#2D2D2D", // Dark gray
+            DEFAULT: "#1A1A1A", // Dark background
+            emphasis: "#FFFFFF", // Light text
           },
           border: {
-            DEFAULT: colors.gray[800],
+            DEFAULT: "#2D2D2D", // Dark gray
           },
           ring: {
-            DEFAULT: colors.gray[800],
+            DEFAULT: "#2D2D2D", // Dark gray
           },
           content: {
-            subtle: colors.gray[600],
-            DEFAULT: colors.gray[500],
-            emphasis: colors.gray[200],
-            strong: colors.gray[50],
-            inverted: colors.gray[950],
+            subtle: "#6C757D", // Neutral gray
+            DEFAULT: "#FFFFFF", // Light text
+            emphasis: "#F5F5F5", // Light background
+            strong: "#FFFFFF", // Light text
+            inverted: "#1A1A1A", // Dark background
           },
         },
       },
@@ -107,35 +107,18 @@ const config: Config = {
         "tremor-metric": ["1.875rem", { lineHeight: "2.25rem" }],
       },
     },
-    // screens: {
-    //   sm: { min: "0px", max: "675px" },
-    //   // => @media (min-width: 500px) { ... }
-
-    //   md: { min: "676px", max: "1000px" },
-    //   // => @media (min-width: 1000px) { ... }
-
-    //   lg: { min: "1001px", max: "1500px" },
-    //   // => @media (min-width: 1500px) { ... }
-
-    //   xl: { min: "1501px", max: "2000px" },
-    //   // => @media (min-width: 2000px) { ... }
-
-    //   "2xl": { min: "2001px" },
-    //   // => @media (min-width: 2500px) { ... }
-    // },
     colors: {
-      "dark-bg": "#212121",
-      "dark-fg": "#4d4c4e", // dark foreground
-      "light-bg": "#e8e8e8",
-      "light-fg": "#f5f5f5",
-      "shopstr-purple": "#a438ba",
-      "shopstr-purple-light": "#a655f7",
-      "shopstr-yellow": "#fcd34d",
-      "shopstr-yellow-light": "#fef08a",
-      "dark-text": "#e8e8e8",
-      "accent-dark-text": "#fef08a", // shopstr yellow
-      "light-text": "#212121",
-      "accent-light-text": "#a438ba", // shopstr purple
+      "bitcoin-orange": "#F7931A", // Primary accent
+      "nostr-purple": "#8A2BE2", // Secondary accent
+      "dark-bg": "#1A1A1A", // Dark background
+      "light-bg": "#F5F5F5", // Light background
+      "light-text": "#FFFFFF", // Light text
+      "dark-text": "#1A1A1A", // Dark text
+      "accent-text-bitcoin": "#F7931A", // Bitcoin orange text
+      "accent-text-nostr": "#8A2BE2", // Nostr purple text
+      "success-green": "#28A745", // Success messages
+      "error-red": "#DC3545", // Error messages
+      "neutral-gray": "#6C757D", // Borders, dividers
       ...colors,
     },
   },
@@ -171,4 +154,5 @@ const config: Config = {
   darkMode: "class",
   plugins: [nextui()],
 };
+
 export default config;

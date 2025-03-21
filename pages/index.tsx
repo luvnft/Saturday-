@@ -53,7 +53,7 @@ export default function Landing() {
           className="mb-6"
         />
         <h1 className="mb-4 text-4xl font-bold text-shopstr-purple dark:text-shopstr-yellow md:text-6xl lg:text-7xl">
-          Shop freely.
+          Arvrtise it.
         </h1>
         <p className="mb-8 max-w-2xl text-xl text-light-text dark:text-dark-text">
           A permissionless marketplace, powered by Nostr and Bitcoin
@@ -108,7 +108,7 @@ export default function Landing() {
       {/* Features Grid */}
       <section className="container mx-auto px-4 py-16">
         <h2 className="mb-12 text-center text-2xl font-bold text-light-text dark:text-dark-text md:text-3xl">
-          Why Choose Shopstr?
+          Why Arvrtise?
         </h2>
         <div className="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
           {/* Feature 1 */}
@@ -301,7 +301,7 @@ export default function Landing() {
 
       {/* Footer */}
       <footer className="w-full bg-light-fg px-4 py-6 text-center text-sm text-light-text dark:bg-dark-fg dark:text-dark-text md:text-base">
-        © Shopstr 2025
+        © Arvrtise 2025
       </footer>
     </div>
   );

@@ -363,7 +363,7 @@ export default function ClaimButton({
         <ModalContent>
           <ModalBody className="flex flex-col overflow-hidden text-light-text dark:text-dark-text">
             <div className="flex items-center justify-center">
-              Would you like to claim the token directly to your Shopstr wallet,
+              Would you like to claim the token directly to your Arvrtise wallet,
               or to your Lightning address?
             </div>
             <div className="flex w-full flex-wrap justify-evenly gap-2">
@@ -415,7 +415,7 @@ export default function ClaimButton({
               </ModalHeader>
               <ModalBody className="flex flex-col overflow-hidden text-light-text dark:text-dark-text">
                 <div className="flex items-center justify-center">
-                  Check your Shopstr wallet for your sats.
+                  Check your Arvrtise wallet for your sats.
                 </div>
               </ModalBody>
             </ModalContent>
@@ -448,7 +448,7 @@ export default function ClaimButton({
               </ModalHeader>
               <ModalBody className="flex flex-col overflow-hidden text-light-text dark:text-dark-text">
                 <div className="flex items-center justify-center">
-                  Check your Shopstr wallet for your sats.
+                  Check your Arvrtise wallet for your sats.
                 </div>
               </ModalBody>
             </ModalContent>
