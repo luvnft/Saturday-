@@ -124,17 +124,18 @@ const config: Config = {
     //   // => @media (min-width: 2500px) { ... }
     // },
     colors: {
-        "bitcoin-orange": "#F7931A", // Primary accent
-        "nostr-purple": "#8A2BE2", // Secondary accent
-        "dark-bg": "#1A1A1A", // Dark background
-        "light-bg": "#F5F5F5", // Light background
-        "light-text": "#FFFFFF", // Light text
-        "dark-text": "#1A1A1A", // Dark text
-        "accent-text-bitcoin": "#F7931A", // Bitcoin orange text
-        "accent-text-nostr": "#8A2BE2", // Nostr purple text
-        "success-green": "#28A745", // Success messages
-        "error-red": "#DC3545", // Error messages
-        "neutral-gray": "#6C757D", // Borders, dividers
+      "dark-bg": "#212121",
+      "dark-fg": "#4d4c4e", // dark foreground
+      "light-bg": "#e8e8e8",
+      "light-fg": "#f5f5f5",
+      "shopstr-purple": "#a438ba",
+      "shopstr-purple-light": "#a655f7",
+      "shopstr-yellow": "#fcd34d",
+      "shopstr-yellow-light": "#fef08a",
+      "dark-text": "#e8e8e8",
+      "accent-dark-text": "#fef08a", // shopstr yellow
+      "light-text": "#212121",
+      "accent-light-text": "#a438ba", // shopstr purple
       ...colors,
     },
   },
